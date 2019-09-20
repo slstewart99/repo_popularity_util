@@ -1,0 +1,84 @@
+>python GitHubPopularity.py
+
+ Option I of II:  GitHubPopularity command, Public Organization Repo Inquiry:
+ $ GitHubPopularity.py <GITHub_organization> <number_of_statistics_desired>
+ Example command:
+ $ GitHubPopularity Atlassian 3
+
+
+ Option II of II: GitHubPopularity command, Private User Repo Inquiry:
+ $ GitHubPopularity.py <username> <number_of_statistics_desired> <40_alpanumeric_token>
+ Example command:
+ $ GitHubPopularity joeblow 3 65fc6d4046eb53781288b93a7868f743cd00dc8e
+
+=======================================================================================
+
+>python GitHubPopularity.py slstewart99 3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Examining repos of GITHub user: slstewart99
+---------------------------------------------------
+A list of all repo names:
+  ----------
+linux_jenkins_and_docker
+Test_repo_to_ensure_working
+---------------------------------------------------
+The desired top number of sorted results from CLI input:  3
+Stars:  linux_jenkins_and_docker  :: 0
+Stars:  Test_repo_to_ensure_working  :: 0
+Forks:  linux_jenkins_and_docker  :: 0
+Forks:  Test_repo_to_ensure_working  :: 0
+Pulls:  linux_jenkins_and_docker  :: 2
+Pulls:  Test_repo_to_ensure_working  :: 2
+Contribution %:  linux_jenkins_and_docker  :: 0
+Contribution %:  Test_repo_to_ensure_working  :: 0
+
+=======================================================================================
+
+>python GitHubPopularity.py cisco 2
+
+repo_url:  https://api.github.com/orgs/cisco/repos
+---------------------------------------------------
+A list of all repo names:
+  ----------
+libsrtp
+openh264
+JdbcDecorator
+libest
+opus
+NATTools
+SSMAMTtools
+jfnr
+libfnr
+cgmi
+ciscohls
+gst-plugin-dlnasrc
+meta-cisco-oss
+JabberWerxC
+thor
+cisco-network-puppet-module
+cisco-network-chef-cookbook
+cisco-network-node-utils
+cisco-nxapi
+node-jose
+node-scr
+node-kms
+libusnic_verbs
+bigmuddy-network-telemetry-stacks
+logstash-codec-bigmuddy-network-telemetry
+logstash-codec-bigmuddy-network-telemetry-gpb
+logstash-output-bigmuddy-network-telemetry-metrics
+senml
+syncodecs
+bigmuddy-network-telemetry-collector
+---------------------------------------------------
+The desired top number of sorted results from CLI input:  2
+Stars:  openh264  :: 3487
+Stars:  thor  :: 669
+Forks:  openh264  :: 1278
+Forks:  libsrtp  :: 270
+Pulls:  libsrtp  :: 2
+Pulls:  openh264  :: 2
+Contribution %:  node-kms  :: 2.0
+Contribution %:  JdbcDecorator  :: 1.0
+
+C:\Users\Stan\AppData\Local\Programs\Python\Python37-32>
