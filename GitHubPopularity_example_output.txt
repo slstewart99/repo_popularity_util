@@ -81,4 +81,5 @@ Pulls:  openh264  :: 2
 Contribution %:  node-kms  :: 2.0
 Contribution %:  JdbcDecorator  :: 1.0
 
-C:\Users\Stan\AppData\Local\Programs\Python\Python37-32>
+-- EOF -----------
+
